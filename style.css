@@ -7,17 +7,15 @@ body{
 }
 /* first section */
 @keyframes slaiding {
-    0%{
-        background-color: #363535;
-    }
-    50%{
+    from {
         background-color:gray ;
     }
-    100%{
+    to{
         background-color: rgb(39, 74, 75);
     }
     
 }
+    
 .container{
     border:900px;
     margin: auto;
@@ -67,12 +65,12 @@ body{
 .section-link{
     border: 1px solid black;
     background-color: black;
-    width: 25%;
+    width: 20%;
     height: 200px;
     margin-top:30px ;
     padding: 25px;
     /* padding-bottom: 10px; */
-    margin-left:70px ;
+    margin-left:80px ;
     border-radius: 6px;
 
 }
@@ -102,27 +100,27 @@ body{
 .blog{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 10px ;
-    margin-right: 50px;
+    margin-left: 15px ;
+    margin-right: 40px;
     padding-top: 20px;
-    row-gap: 15px;
+    row-gap: 10px;
     column-gap: 20px;
     }
    
     .section-player{
         margin-top: 10px;
         /* padding-left: 20px; */
-        width:250px;
-        height: 400px;
+        width:245px;
+        height: 360px;
         border:1px solid rgb(226, 223, 223);
         box-shadow: 1px 1px 1px rgb(226, 223, 223) ;
         border-radius: 5px; 
     }
     .images img{
-        width: 250px;
+        width: 245px;
         height: 200px;
         
-        border-radius:10px ;
+        border-radius:5px ;
     }
     .head{
         margin-top: 20px;
@@ -179,7 +177,6 @@ body{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             column-gap: 10px;
-            row-gap: 10px;
             margin-top: 20px;
 
         }
