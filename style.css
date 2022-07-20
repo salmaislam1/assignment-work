@@ -16,7 +16,7 @@ body{
     
 }
     
-.container{
+.container-one{
     border:900px;
     margin: auto;
     padding-top:25px;
@@ -26,9 +26,10 @@ body{
     background-color: black;
     border-radius: 30px;
     margin-top: 40px;
-    animation: sliding 5s ease-in-out 0.5s 3 alternate;
+    animation:slaiding 1s ease-in  1s infinite alternate;
     animation-play-state: running;
-}
+} 
+
 .section-a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -46,13 +47,16 @@ body{
     
     font-size: 15px;
 }
-.ancor{
+.ancor-tag{
     text-decoration: none;
     background-color: #dd0000;
     font-weight: 700;
     border-radius: 5px;
     padding:10px 30px;
     color: white;
+}
+.ancor-tag:hover{
+    background-color: chocolate;
 }
 /* .section-two{
     padding-top: 30px;
@@ -160,6 +164,26 @@ body{
         padding-right: 80px;}
 
         /* newindex.html style */
+
+        .container{
+            border:900px;
+            margin: auto;
+            padding-top:25px;
+            padding-left: 50px;
+            width: 85%;
+            color:white;
+            background-color: black;
+            border-radius: 30px;
+            margin-top: 40px;
+        }
+        .ancor{
+            text-decoration: none;
+            background-color: #dd0000;
+            font-weight: 700;
+            border-radius: 5px;
+            padding:10px 30px;
+            color: white;
+        }
         .play-link{
             border: 1px solid black;
             background-color: black;
