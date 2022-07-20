@@ -94,8 +94,8 @@ body{
         /* padding-left: 20px; */
         width:320px;
         height: 400px;
-        border:3px solid rgb(226, 223, 223);
-        box-shadow: 1px 1px 1px 1px rgb(226, 223, 223) ;
+        border:1px solid rgb(226, 223, 223);
+        box-shadow: 1px 1px 1px rgb(226, 223, 223) ;
         border-radius: 10px; 
     }
     .images img{
@@ -108,6 +108,7 @@ body{
         margin-top: 20px;
         padding-left: 20px;
     }
+    /* footer part */
     .footer{
         margin-top: 30px;
         padding: 80px;
@@ -122,7 +123,7 @@ body{
     }
     hr{
         border: 0.5px solid #363535;
-        width : 85%;
+        width : 100%;
     }
 
     .feild{
@@ -139,30 +140,4 @@ body{
         grid-template-columns: repeat(6,1fr);
         margin-right: 70px;
         padding-right: 80px;}
-    /* } assign html */
-        .div-link{
-            border: 1px solid black;
-            background-color: black;
-            width: 24%;
-            height: 180px;
-            margin-top:20px ;
-            padding: 20px;
-            margin-left:60px ;
-            border-radius: 4px;
-        }
-    .blank-2, .blank-3 , .blank-1{
-        text-decoration: none;
-        display: block; 
-        padding: 10px 30px;
-        border-radius:12px ;
-        margin:10px;
-        text-align: center;
-    }
-    .blank-3 ,.blank-2{
-        background-color: white;
-        color: black;
-    }
-    .blank-1{
-        background-color: red;
-        color: white;
-    }
+
