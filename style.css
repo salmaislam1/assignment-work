@@ -45,7 +45,7 @@ body{
     padding-top: 30px;
 } */
 .section-two img{
-    padding-left:40px;
+    padding-left:80px;
     height: 400px;
 }
 /* second section */
@@ -101,7 +101,7 @@ body{
     .images img{
         width: 320px;
         height: 200px;
-      
+        
         border-radius:10px ;
     }
     .head{
