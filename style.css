@@ -6,6 +6,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* first section */
+@keyframes slaiding {
+    0%{
+        background-color: #363535;
+    }
+    50%{
+        background-color:gray ;
+    }
+    100%{
+        background-color: rgb(39, 74, 75);
+    }
+    
+}
 .container{
     border:900px;
     margin: auto;
@@ -15,6 +27,9 @@ body{
     color:white;
     background-color: black;
     border-radius: 30px;
+    margin-top: 40px;
+    animation: sliding 5s ease-in-out 0.5s 3 alternate;
+    animation-play-state: running;
 }
 .section-a{
     display: grid;
@@ -52,22 +67,24 @@ body{
 .section-link{
     border: 1px solid black;
     background-color: black;
-    width: 28%;
+    width: 25%;
     height: 200px;
-    margin-top:10px ;
-    padding: 20px;
-    padding-bottom: 10px;
+    margin-top:30px ;
+    padding: 25px;
+    /* padding-bottom: 10px; */
     margin-left:70px ;
-    border-radius: 4px;
+    border-radius: 6px;
 
 }
 .ancor-2 ,.ancor-3 ,.ancor-4,.blank1, .blank2, .blank3{
     text-decoration: none;
     display: block; 
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius:12px ;
-    margin:10px;
+    margin:5px;
+    margin-right: 10px;
     text-align: center;
+    margin-top: 20px;
 
 }
 .ancor-2, .ancor-3, .blank2, .blank3{
@@ -85,13 +102,15 @@ body{
 .blog{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 20px ;
-    margin-right: 20px;
+    margin-left: 10px ;
+    margin-right: 50px;
     padding-top: 20px;
     row-gap: 15px;
     column-gap: 20px;
     }
+   
     .section-player{
+        margin-top: 10px;
         /* padding-left: 20px; */
         width:250px;
         height: 400px;
@@ -143,9 +162,46 @@ body{
         padding-right: 80px;}
 
         /* newindex.html style */
+        .play-link{
+            border: 1px solid black;
+            background-color: black;
+            width: 50%;
+            height: 230px;
+            margin-top:40px ;
+            padding: 10px 30px ;
+            padding-bottom: 10px;
+            margin-left:70px ;
+            border-radius: 6px;
+        
+        }
         .start-main{
+            width: 80%;
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            column-gap: 10px;
+            row-gap: 10px;
+            margin-top: 20px;
+
         }
-        
+        .world{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-left: 20px;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        .country-vs{
+            box-shadow: 1px 0px 0px rgba(0,0,0 ,.15);
+            width:290px;
+        }
+        .country{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+            row-gap: 20px;
+            padding:20px;
+        }
+        .country-name{
+            text-align: center;
+        }
 
