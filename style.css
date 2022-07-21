@@ -46,7 +46,7 @@
     
     font-size: 15px;
 }
-.ancor-tag{
+.ancor-tag {
     text-decoration: none;
     background-color: #dd0000;
     font-weight: 700;
@@ -181,6 +181,7 @@
             font-weight: 700;
             border-radius: 5px;
             padding:10px 30px;
+            padding-top: 20px;
             color: white;
         }
         .play-link{
@@ -227,20 +228,6 @@
         .country-name{
             text-align: center;
         }
-        /* .View-All{
-            text-decoration: none;
-            height: 50px;
-            width: 140px;
-            text-align: center;
-            background-color: #dd0000;
-            font-weight: 700;
-            border-radius: 5px;
-            padding:10px 30px;
-            color: white;
-            display: flex;
-            justify-content: center;
-        } */
-
 
        /* @media quary  */
         /* small device */
@@ -302,9 +289,36 @@
            height: 280px;
            width: 100%;
         } 
+    }
    @media only screen and (max-width:576) and (max-width:996) {
-            
-        }
+    .containers{
+        width: 100%;
+    }
+    .section-link {
+        flex-direction: column-reverse;
+        background-color: white;
+        border:0px;
+        padding: 50px;
+        margin-top: 0;
+        width: 35%;
+    
+    }
+    .section-grid{
+        grid-template-columns: repeat(1,1fr);
+        flex-wrap: wrap;
+        padding-left: 70px;}
 
+    .section-link {
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: white;
+        border:0px;
+        padding: 50px;
+        margin-top: 0;
+        width: 35%;
+    
+    }
+        }
 
 
