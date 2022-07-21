@@ -305,14 +305,16 @@
    @media only screen and (max-width:576) and (max-width:996) {
 
         .view {
-            visibility: hidden;
+            visibility: visible;
         }
         .player{
             width: 100%;
         }
         .section-grid{
             display: grid;
+            /* grid-template-columns: repeat(1,1fr); */
             grid-template-columns: repeat(1,1fr);
+            flex-wrap: wrap;
         }
         .section-link {
         display: grid;
@@ -336,9 +338,19 @@
         border:1px solid black;
     
     }
+    .play{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        padding: 40px;
+        column-gap: 5px;
+        width: 80%;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        margin-left: 5%;
+    }
     .blog{
-            grid-template-columns:repeat(2, 1fr);
-        }
-        }
+            grid-template-columns:repeat(3, 1fr);
 
-
+    }
+}
